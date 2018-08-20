@@ -1,0 +1,10 @@
+.footer {
+  background-color: #fff !important;
+  color: #34515E !important;
+  font-weight: 800;
+  font-size: 16px !important; }
+  .footer a {
+    color: #697c89 !important; }
+  @media (max-width: 576px) {
+    .footer {
+      font-size: 11px !important; } }

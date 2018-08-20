@@ -1,0 +1,16 @@
+@import '../../style.scss';
+
+.footer {
+  background-color: #fff !important;
+  color: $primary-color !important;
+  font-weight: 800;
+  font-size: 16px !important;
+
+  a {
+    color: $secondary-color !important;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 11px !important;
+  }
+}

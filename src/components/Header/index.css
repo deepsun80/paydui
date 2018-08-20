@@ -1,0 +1,23 @@
+.header {
+  padding-left: 10%;
+  background: #fff; }
+  .header .signIn {
+    margin-right: 10%; }
+    .header .signIn p {
+      font-size: 13px;
+      font-weight: 700; }
+    .header .signIn .fas {
+      color: #06d438; }
+    .header .signIn .fas p {
+      font: 100% "PT-Sans", sans-serif;
+      font-weight: 700;
+      float: right;
+      font-size: 30px; }
+
+@media (max-width: 576px) {
+  .header .navbar-brand {
+    margin: auto; }
+  .header .signIn {
+    transform: scale(0.8);
+    width: 100%;
+    text-align: center; } }

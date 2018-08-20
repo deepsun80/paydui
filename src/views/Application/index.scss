@@ -1,0 +1,79 @@
+@import '../../style.scss';
+
+.appPanel {
+  width: 60%;
+  min-width: 375px;
+  margin-top: 14vh !important;
+  margin-bottom: 13.5vh !important;
+
+  .pages {  
+    position: relative;
+    top: -95px;
+    display: flex;
+
+    .fa {
+      color: $blue-lt;
+      margin-top: 12px;
+    }
+
+    hr {
+      border-color: $secondary-color;
+      min-width: 60px;
+      border-width: 3px;
+    }
+
+    p {
+      font-size: 17px;
+      font-weight: 600;
+      padding-top: 15px;
+    }
+
+    .finalPageLight {
+      color: $secondary-color;      
+    }
+
+    .finalPageDark {
+      color: $primary-color;
+    }
+  }
+
+  .buttonRow {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .validationMessage {
+    color: #f44336;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .card-body {
+    .card-title {
+      font-size: 24px;
+      text-align: center;
+      font-weight: 700;
+      color: $primary-color;
+    }
+
+    .card-text {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .pages {
+      transform: scale(0.75);
+    }
+
+    .btn {
+      font-size: 12px;
+    }
+
+    .validationMessage {
+      font-size: 16px;
+    }
+  }
+}

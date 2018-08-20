@@ -1,0 +1,47 @@
+.appPanel {
+  width: 60%;
+  min-width: 375px;
+  margin-top: 14vh !important;
+  margin-bottom: 13.5vh !important; }
+  .appPanel .pages {
+    position: relative;
+    top: -95px;
+    display: flex; }
+    .appPanel .pages .fa {
+      color: #06d438;
+      margin-top: 12px; }
+    .appPanel .pages hr {
+      border-color: #697c89;
+      min-width: 60px;
+      border-width: 3px; }
+    .appPanel .pages p {
+      font-size: 17px;
+      font-weight: 600;
+      padding-top: 15px; }
+    .appPanel .pages .finalPageLight {
+      color: #697c89; }
+    .appPanel .pages .finalPageDark {
+      color: #34515E; }
+  .appPanel .buttonRow {
+    display: flex;
+    justify-content: space-between; }
+  .appPanel .validationMessage {
+    color: #f44336;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center; }
+  .appPanel .card-body .card-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #34515E; }
+  .appPanel .card-body .card-text {
+    color: #697c89;
+    font-weight: 700; }
+  @media (max-width: 576px) {
+    .appPanel .pages {
+      transform: scale(0.75); }
+    .appPanel .btn {
+      font-size: 12px; }
+    .appPanel .validationMessage {
+      font-size: 16px; } }

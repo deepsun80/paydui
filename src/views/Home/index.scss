@@ -1,0 +1,89 @@
+@import '../../style.scss';
+
+.homeBody {
+
+  h1 {
+    font-weight: 700;
+    color: $secondary-color;
+  }
+
+  .card-title, h5 {
+    text-align: center;
+  }
+
+  h4, h5, .card-body h6 {
+    font-weight: 700;
+    color: $primary-color;
+  }
+
+  .row {
+    width: 83%;
+    margin: auto;
+
+    @media (min-width: 576px) {
+      
+      .firstCol {
+        padding-right: 80px;
+        padding-top: 5%;
+
+        .inputForm {
+          min-width: 91%;
+        }  
+        
+        .btn {
+          margin-left: 72%;
+        }
+      }
+    }
+
+    @media (max-width: 576px) {
+      .firstCol {
+        text-align: center;
+        margin-bottom: 5vh;
+
+        .inputForm {
+          width: 75% !important;
+        }
+
+        h1 {
+          font-size: 22px;
+        }
+        
+        h4 {
+          font-size: 18px;
+        }
+      }
+    }
+    
+    .card {
+      margin-top: 3vh;
+      margin-bottom: 7.6vh;
+
+      .card-title {
+        font-weight: 700 !important;
+        color: $secondary-color !important;
+      }
+
+      .row {
+        margin-bottom: 8vh;
+        margin-right: 1vh;
+      }
+        
+      .grey-text {
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      @media (min-width: 400px) {
+        .row img {
+          margin-left: -50px;
+          margin-top: -5px;
+        }
+
+        .card-title {
+          margin-bottom: 5vh;          
+        }
+      }
+    }
+  }
+}

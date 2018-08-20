@@ -1,0 +1,19 @@
+@import '../../../../style.scss';
+
+.username {
+  color: $primary-color;
+  font-weight: 700;
+}
+
+.appSubmit {
+  margin-top: 32px;
+  margin-bottom: -60px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 576px) {
+  .appSubmit {
+    margin-bottom: -57px;
+  }
+}

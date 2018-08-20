@@ -1,0 +1,41 @@
+@import './style.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: #f5f5f5;
+
+  .btn {
+    font-weight: 800 !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 35px; 
+  }
+
+  a {
+    color: $blue-lt !important;
+    transition: all 0.2s;
+  }
+
+  a:hover {
+    color: $blue-dk !important;
+  }
+
+  .btn-success {
+    background-color: $blue-lt !important;
+  }
+
+  .btn-success:hover {
+    background-color: $blue-dk !important;
+  }
+
+  i {
+    color: $secondary-color;
+  }
+
+  .tooltip-inner {
+    background-color: rgb(24, 37, 43);
+    min-width: 500px;
+  }
+}

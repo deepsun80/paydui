@@ -1,0 +1,50 @@
+.homeBody h1 {
+  font-weight: 700;
+  color: #697c89; }
+
+.homeBody .card-title, .homeBody h5 {
+  text-align: center; }
+
+.homeBody h4, .homeBody h5, .homeBody .card-body h6 {
+  font-weight: 700;
+  color: #34515E; }
+
+.homeBody .row {
+  width: 83%;
+  margin: auto; }
+  @media (min-width: 576px) {
+    .homeBody .row .firstCol {
+      padding-right: 80px;
+      padding-top: 5%; }
+      .homeBody .row .firstCol .inputForm {
+        min-width: 91%; }
+      .homeBody .row .firstCol .btn {
+        margin-left: 72%; } }
+  @media (max-width: 576px) {
+    .homeBody .row .firstCol {
+      text-align: center;
+      margin-bottom: 5vh; }
+      .homeBody .row .firstCol .inputForm {
+        width: 75% !important; }
+      .homeBody .row .firstCol h1 {
+        font-size: 22px; }
+      .homeBody .row .firstCol h4 {
+        font-size: 18px; } }
+  .homeBody .row .card {
+    margin-top: 3vh;
+    margin-bottom: 7.6vh; }
+    .homeBody .row .card .card-title {
+      font-weight: 700 !important;
+      color: #697c89 !important; }
+    .homeBody .row .card .row {
+      margin-bottom: 8vh;
+      margin-right: 1vh; }
+    .homeBody .row .card .grey-text {
+      font-weight: 700;
+      font-size: 14px; }
+    @media (min-width: 400px) {
+      .homeBody .row .card .row img {
+        margin-left: -50px;
+        margin-top: -5px; }
+      .homeBody .row .card .card-title {
+        margin-bottom: 5vh; } }

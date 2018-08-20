@@ -1,0 +1,12 @@
+.disclaimer {
+  font-size: 11px !important;
+  line-height: 1.2em;
+}
+  
+@media (min-width: 770px) {
+  .disclaimer {
+    font-size: 14px !important;
+    margin: -10px auto;
+    width: 95%;
+  }
+}
